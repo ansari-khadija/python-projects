@@ -21,7 +21,7 @@ Install Python 3 on your computer.
 
 Installation
 Clone the repository:
-   git clone https://github.com/YOUR-USERNAME/personal-profile-checker.git
+   git clone https://github.com/ansari-khadija/personal-profile-checker.git
 
 Navigate to the project folder:
    cd personal-profile-checker
