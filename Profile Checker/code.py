@@ -2,9 +2,9 @@ print("=" * 40)
 print("   PERSONAL PROFILE CHECKER")
 print("=" * 40)
 
-# string 
-name=input("Enter your name:")
-city=input("Enter your city:")
+# String
+name = input("Enter your name: ")
+city = input("Enter your city: ")
 
 # Integer
 try:
@@ -16,7 +16,6 @@ except ValueError:
 if age < 0 or age > 120:
     print("Please enter an age between 0 and 120.")
     raise SystemExit
-
 
 # Boolean
 newsletter_input = input(
@@ -33,6 +32,7 @@ newsletter = newsletter_input == "yes"
 hobbies_input = input(
     "Enter your hobbies separated by commas: "
 )
+
 hobbies = [
     hobby.strip()
     for hobby in hobbies_input.split(",")
@@ -40,12 +40,12 @@ hobbies = [
 ]
 
 # Tuple
-location = (city)
+location = (city, age)
 
-# Set: unique hobbies
+# Set
 unique_hobbies = set(hobbies)
 
-# Dictionary: profile details
+# Dictionary
 profile = {
     "name": name,
     "age": age,
@@ -54,7 +54,7 @@ profile = {
     "hobbies": hobbies
 }
 
-# Eligibility checks (illustrative rules)
+# Eligibility checks
 adult = age >= 18
 driving_age_eligible = age >= 18
 
@@ -73,6 +73,7 @@ print("Unique hobbies:", unique_hobbies)
 print("Location tuple:", location)
 
 print("\n--- Data Types ---")
+
 for key, value in profile.items():
     print(key, ":", type(value).__name__)
 
