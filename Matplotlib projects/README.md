@@ -27,29 +27,6 @@ Heatmap	Displays regional and category performance
 Scatter Plot	Analyses the relationship between sales and profit
 Histogram	Shows order value distribution
 
-⚙️ Installation and Setup
-1. Clone the Repository
-bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-
-2. Navigate to the Project Folder
-bash
-cd E-Commerce-Sales-Dashboard
-
-3. Install Required Libraries
-bash
-pip install pandas numpy matplotlib seaborn
-
-4. Create the Dataset
-
-Run the dataset creation script:
-
-bash
-python create_dataset.py
-
-5. Run the Dashboard
-bash
-python ecommerce_dashboard.py
 
 📊 Key Performance Indicators (KPIs)
 
